@@ -8,13 +8,6 @@ en bloques"""
 print("Hola Mundo!")
 print("Bienvenido!")
 
-# Variables:
-x = 2
+n = 11//12
 
-
-nombre = "Leandro"
-edad = 21
-
-texto = f"Mi nombre es {nombre} y tengo {str(edad)} años"
-
-print(texto)
+print(n)

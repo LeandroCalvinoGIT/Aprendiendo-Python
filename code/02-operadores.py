@@ -72,7 +72,29 @@ print(f"Los números son Iguales? {num1 == num2}")
 print(f"El primero es mayor? {num1 > num2}")
 print(f"El segundo es mayot? {num1 < num2}") """
 
-#10: COMPRAS! 
+#10: Calculadora de liquidación:
+
+# Consigna: Escribe una calculadora de liquidación:
+# El cálculo se trata de dividir el salario bruto en 30 y después multiplicarlo por
+# los días trabajados en el último mes. 
+#
+# El programa debe tener:
+#       - Una variable para salario bruto, con valor (int o float)
+#       - Una variable dias trabajados, con valor int
+#       - Dividir salario bruto por 30 y multiplicalrro por dias trabajados
+#       - Mostrar el resultado final
+#-------------------------------------------------------------------------------------
+
+""" dias_del_mes = 30
+
+salario_bruto = float(input("Ingrese el valor del salario bruto: "))
+dias_trabajados = int(input("Ingrese la cantidad de dias trabajados: "))
+
+salario_neto = (salario_bruto / dias_del_mes) * dias_trabajados
+
+print(f"El salario total es de: ${salario_neto}") """
+
+#11: COMPRAS! 
 
 # ============================================
 # EJERCICIO FINAL INTEGRADOR
