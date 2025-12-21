@@ -156,6 +156,7 @@ def calcular_promedio(numeros):
     finally:
         print("Calculo del promedio finalizado")
 
+print(type("hjola"))
 numeros = []
 numero = ""
 
