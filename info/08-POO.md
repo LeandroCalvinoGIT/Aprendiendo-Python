@@ -1,6 +1,8 @@
-# OBJETOS
+# PROGRAMACION ORIENTADA A OBJETOS
 
-# CLASES:
+# CLASES: 
+
+Una **clase** es un molde que define atributos (estado) y métodos (comportamiento).
 
 ## Sintaxis:
 
@@ -33,12 +35,28 @@ print("El atrtibuto2 de instancia1 es:".instancia1.atributo2)
 - Funcion vs Método: Un metodo es una funcion que pertenece a una clase, las funciones no pertenecen a ninguna clase
 
 ## ENCAPSULAMIENTO:
+Convención para indicar uso interno de atributos o métodos.
 
-### ENCAPSULAR VARIABLES Y MÉTODOS:
+### ENCAPSULAR VARIABLES Y MÉTODOS
 
 Se logra precediendo el nombre de una con __ para que solo sea accesible desde dentro de la misma clase.
 
+EJ:
+```python     
+# uso interno
+self.__atributo     
+def __mostrar_inventario(self):
+    pass
+```
+
 # HERENCIA
+Permite crear una clase a partir de otra.
+- La subclase hereda atributos y métodos
+- Puede sobrescribir métodos
+
+## SUPER()
+
+Permite llamar al constructor o método de la clase padre.
 
 Para heredar de una clase, se debe definir la misma de la siguiente manera:
 
