@@ -69,6 +69,9 @@ print(datosSperados)# ["10", "20", "30", "40"]
 palabras2 = texto.split(" ", 2) 
 print(palabras2) # ["Hola", "mundo", "desde python"]
 ```
+## .join()
+
+El método "b".join("n") añade n a b
 
 ## .strip()
 
