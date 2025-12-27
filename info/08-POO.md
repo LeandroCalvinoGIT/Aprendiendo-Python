@@ -16,7 +16,8 @@ class NombreDeClase():
     atributo3 = True
         
     # Método constructor de la clase
-    def __init__(self, atributo1, atributo2, atributo3):
+    def __init__(self, atributo1, atributo2, atributo3=valorDefecto): 
+        #Si no se pasa valor a atributo3, toma por defecto el valor DefectoS
         self.atributo1 = atributo1
         self.atributo2 = atributo2
         self.atributo3 = atributo3

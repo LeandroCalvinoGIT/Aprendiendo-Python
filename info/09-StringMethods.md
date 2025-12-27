@@ -71,8 +71,15 @@ print(palabras2) # ["Hola", "mundo", "desde python"]
 ```
 ## .join()
 
-El método "b".join("n") añade n a b
+El método "n".join(lista) une los elemento de la lista en un string separados por el caracter n
 
+```python
+items = ["Espada", "Pico", "Manzana"]
+
+texto = ", ".join(items) #"Espada, Pico, Manzana"
+print(texto)
+# Salida: Espada, Pico, Manzana
+```
 ## .strip()
 
 El método .strip() elimina espacios en blanco al inicio y al final del string.

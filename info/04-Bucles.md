@@ -2,7 +2,7 @@
 
 ## KEYWORDS:
 **break**        # sale del bucle
-**continue**       # saltea una iteración
+**continue**       # saltea desde ese punto a la siguiente iteración
 **pass**           # no hace nada
 
 ## WHILE: 
@@ -21,6 +21,22 @@ Ejecuta un bloque de código una cantidad de veces prefijada
 
 La función ***range(a,b,c)*** genera una lista de los numeros iniciando en a y terminando en b-1 con salto c
 La función **reversed()** da vuelta el orden de una lista
+
+### enumerate(iterable)
+
+La funcion enumarate() convierte un iterable en una pares indice / valor:
+
+Ej:
+colores = ["rojo", "verde", "azul"]
+
+for i, color in enumerate(colores, start = n):
+    print(i, color)
+
+Salida:
+
+n rojo
+n+1 verde
+n+2 azul
 
 ## BUCLES ANIDADOS: Un bucle adentro de otro
 

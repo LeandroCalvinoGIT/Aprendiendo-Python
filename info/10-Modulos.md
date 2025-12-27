@@ -20,7 +20,7 @@ Conjunto de todos los nombres definidos, se pueden ver haciendo:
 print(dir(modulo))
 
 Para que el codigo del modulo solo se ejecute cuando se use como programa principal, hay que agregar:
-usar if __name__ = "__main__"
+usar if __name__ == "__main__"
         main()
 
 ----------------------------------------------------------------------------------------------------------
