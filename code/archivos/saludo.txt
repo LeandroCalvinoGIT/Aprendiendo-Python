@@ -1,0 +1,2 @@
+Hola, estoy aprendiendo archivos en Python
+Esta es una nueva línea agregada
