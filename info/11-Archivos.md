@@ -7,6 +7,8 @@ El objetivo es la persistencia de datos:
 
 En python se usa el **Módulo io** de la biblioteca estandar de python, y se manejan los archivos como objetos.
 
+from io import open
+
 ## TIPOS DE ARCHIVOS
 
 - Texto Plano
